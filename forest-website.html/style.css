@@ -1,0 +1,277 @@
+nav{
+    background-color: rgb(118, 173, 96);
+    width: 100%;
+    margin:0px;
+    border:3px solid black
+}
+body{
+    margin:0px;
+    color:white;
+    margin: 0px;
+    
+}
+.background{
+    z-index: -1;
+    position: fixed;
+}
+a{
+    color:white
+
+}
+ul{
+    list-style-type: none;
+}
+
+.container-fluid{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+
+}
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    width:40%;
+
+}
+.alert{
+    display: flex;
+
+    height: 100%;
+    align-items: center;
+}
+.navbar-text{
+    border:5px solid red;
+    display: flex;
+    padding:20px;
+    font-size: x-large;
+    
+    
+}
+.navbar-brand{
+font-size: xx-large;
+}
+.home-table{
+     display:flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    background-color: rgb(118, 173, 96);
+    border-radius: 15%;
+    align-content: flex-start;
+    margin-top: 110px;
+}
+.welcome-container{
+    justify-content: center;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+   color:black;
+   font-size: 4rem;
+}
+
+.welcome-statement{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin-top: -50px;
+}
+
+.welcome-actual{
+    color: black;
+    font-weight: 600;
+    font-size:large;
+
+}
+.photo-sample{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.samp-position{
+
+}
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.samp-pic{
+    height: 250px;
+    width:350px;
+    margin: 20px;
+    
+}
+.samp-holder{
+    border: 25px solid rgba(0, 0, 0, 0.747);
+    border-radius: 10%;
+
+}
+.link-container{
+    width:100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.link-title{
+    color: black;
+  
+    text-decoration: none;
+    font-size: x-large;
+}
+button{
+      margin-top: 25px;
+    margin-bottom: 25px;
+}
+.weather{
+    background-color: rgb(118, 173, 96);
+    border-radius: 15%;
+    color:black;
+    height:100%;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.weather-table{
+    display:flex;
+    flex-direction: column;
+}
+.weatherhead{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+.fake-map{
+    height: 100%;
+    width: 100%; 
+}
+.weathermap-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+.weathermap{
+    width:50%;
+    border: 25px solid rgba(0, 0, 0, 0.747);
+    border-radius: 10%;
+}
+.todays-weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.todays-forcast{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.report{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+}
+.weather-header{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.headerbg{
+    background-color:white;
+    width:500px;
+    border-radius: 15%;
+
+}
+.chance{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+.title-holder{
+    display: flex;
+    justify-content: center;
+}
+.table-title{
+    
+    font-size: xx-large;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid black;
+    margin-bottom: 80px;
+
+}
+td,th{
+    border:1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    font-weight: 700;
+    text-decoration:underline;
+    color: black;
+}
+td{
+    font-weight: 200;
+}
+.forcast-container{
+    display: flex;
+    justify-content: center;
+  
+}
+.contact{
+    color: white;
+}
+.contact-table{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact-head{
+    display: flex;
+    justify-content: center;
+
+}
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.map{
+    height: 300px;
+    width:500px;
+    margin-top: 25px;
+}
+.contact-title{
+    font-size: xx-large;
+}
+.info-bg{
+    background-color: rgba(0, 0, 0, 0.801);
+    display: flex;
+    margin:20px;
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15%;
+
+}
